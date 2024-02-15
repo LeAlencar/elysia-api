@@ -13,4 +13,4 @@ console.log(chalk.greenBright("Migrations applied successfully!"));
 
 await connection.end();
 
-process.exit();
+process.exit(0);
